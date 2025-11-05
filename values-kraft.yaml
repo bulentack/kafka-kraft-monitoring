@@ -1,0 +1,22 @@
+# Kafka KRaft mode configuration
+kraft:
+  enabled: true
+
+replicaCount: 3
+
+listeners:
+  plaintext:
+    protocol: PLAINTEXT
+    port: 9092
+
+service:
+  type: ClusterIP
+
+metrics:
+  jmx:
+    enabled: true
+    port: 5556
+    serviceMonitor:
+      enabled: true
+      interval: 15s
+      scrapeTimeout: 10s

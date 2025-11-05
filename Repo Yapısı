@@ -1,0 +1,5 @@
+kafka-kraft-monitoring/
+├── values-kraft.yaml
+├── prometheus.yaml
+├── grafana-dashboard.json
+└── README.md

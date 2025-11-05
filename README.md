@@ -28,7 +28,7 @@ helm install kafka oci://registry-1.docker.io/bitnamicharts/kafka -f values-kraf
 kubectl apply -f prometheus.yaml -n kafka
 
 
-Grafana Dashboard Import
+📊 Grafana Dashboard Import
 
 Open Grafana → Dashboards → Import
 
@@ -45,7 +45,7 @@ Bytes throughput
 Broker-level and topic-level statistics
 
 
-Stack
+🧰 Stack
 
 Kafka • KRaft • Helm • Prometheus • Grafana • Kubernetes
 
